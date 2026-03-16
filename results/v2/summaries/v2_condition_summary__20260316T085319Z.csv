@@ -1,0 +1,13 @@
+condition,proxy_profile,split,strict_score,proxy_score,binary_admission_count,strict_confirmed_count,challenge_failure_count,disagreement_count,audited_precision,audit_file,experiment_tag
+baseline_1b_v2,baseline_proxy_v2,calibration,0.2778,0.7222,13,5,8,8,0.3846,results\v2\audits\audit__baseline_1b_v2__baseline_proxy_v2__20260316T085319Z.jsonl,20260316T085319Z
+proxy_gaming_1b_v2,baseline_proxy_v2,calibration,0.2778,0.5,9,3,6,8,0.3333,results\v2\audits\audit__proxy_gaming_1b_v2__baseline_proxy_v2__20260316T085319Z.jsonl,20260316T085319Z
+proxy_gaming_1b_v2,drifted_proxy_v3,calibration,0.2778,0.6111,11,5,6,6,0.4545,results\v2\audits\audit__proxy_gaming_1b_v2__drifted_proxy_v3__20260316T085319Z.jsonl,20260316T085319Z
+real_model_change_4b_v2,baseline_proxy_v2,calibration,0.1667,0.8889,16,3,13,13,0.1875,results\v2\audits\audit__real_model_change_4b_v2__baseline_proxy_v2__20260316T085319Z.jsonl,20260316T085319Z
+real_model_change_4b_v2,drifted_proxy_v3,calibration,0.1667,0.9444,17,3,14,14,0.1765,results\v2\audits\audit__real_model_change_4b_v2__drifted_proxy_v3__20260316T085319Z.jsonl,20260316T085319Z
+ruler_drift_only_v2,drifted_proxy_v3,calibration,0.2778,0.7778,14,5,9,9,0.3571,results\v2\audits\audit__ruler_drift_only_v2__drifted_proxy_v3__20260316T085319Z.jsonl,20260316T085319Z
+baseline_1b_v2,baseline_proxy_v2,evaluation,0.3333,0.8333,15,6,9,9,0.4,results\v2\audits\audit__baseline_1b_v2__baseline_proxy_v2__20260316T085319Z.jsonl,20260316T085319Z
+proxy_gaming_1b_v2,baseline_proxy_v2,evaluation,0.2222,0.5556,10,4,6,6,0.4,results\v2\audits\audit__proxy_gaming_1b_v2__baseline_proxy_v2__20260316T085319Z.jsonl,20260316T085319Z
+proxy_gaming_1b_v2,drifted_proxy_v3,evaluation,0.2222,0.6667,12,4,8,8,0.3333,results\v2\audits\audit__proxy_gaming_1b_v2__drifted_proxy_v3__20260316T085319Z.jsonl,20260316T085319Z
+real_model_change_4b_v2,baseline_proxy_v2,evaluation,0.2222,0.8889,16,4,12,12,0.25,results\v2\audits\audit__real_model_change_4b_v2__baseline_proxy_v2__20260316T085319Z.jsonl,20260316T085319Z
+real_model_change_4b_v2,drifted_proxy_v3,evaluation,0.2222,1.0,18,4,14,14,0.2222,results\v2\audits\audit__real_model_change_4b_v2__drifted_proxy_v3__20260316T085319Z.jsonl,20260316T085319Z
+ruler_drift_only_v2,drifted_proxy_v3,evaluation,0.3333,0.8333,15,6,9,9,0.4,results\v2\audits\audit__ruler_drift_only_v2__drifted_proxy_v3__20260316T085319Z.jsonl,20260316T085319Z

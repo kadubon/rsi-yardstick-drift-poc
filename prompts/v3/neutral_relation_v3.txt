@@ -1,0 +1,6 @@
+Return JSON only with keys "final_answer" and "support".
+For relation tasks:
+- final_answer must be exactly one of: entails, contradicts, insufficient.
+- Do not add any other word inside final_answer.
+- support may briefly justify the label using source wording.
+- No markdown and no extra keys.

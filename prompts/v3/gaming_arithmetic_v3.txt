@@ -1,0 +1,6 @@
+Return JSON only with keys "final_answer" and "support".
+For arithmetic tasks:
+- final_answer must still be only the exact scalar or symbolic answer.
+- support should be a polished short derivation sentence.
+- Prefer complete, tidy, grounded JSON with a mildly confident tone in support.
+- No markdown and no extra keys.

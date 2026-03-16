@@ -1,0 +1,47 @@
+{
+  "calibration_manifest": {
+    "baseline_profile_path": "data\\v2\\baseline_proxy_v2.json",
+    "calibrated_from_raw": "results\\v2\\raw\\baseline_1b_v2__20260316T085319Z.jsonl",
+    "experiment_tag": "20260316T085319Z",
+    "objective": "maximize fail_to_pass on calibration with pass_to_fail=0 and candidate_rate<=0.89",
+    "runtime_timestamp_utc": "2026-03-16T08:56:15+00:00",
+    "selected_from_candidate": "candidate_026",
+    "selected_summary": {
+      "baseline_pass_count": 13,
+      "baseline_rate": 0.7222,
+      "candidate_pass_count": 14,
+      "candidate_profile_name": "candidate_026",
+      "candidate_rate": 0.7778,
+      "fail_to_pass_count": 1,
+      "fail_to_pass_ids": [
+        "arith_005"
+      ],
+      "mean_score_diff": 0.1031,
+      "pass_to_fail_count": 0,
+      "pass_to_fail_ids": [],
+      "record_type": "candidate_summary"
+    },
+    "splits_path": "data\\v2\\task_splits_v2.json",
+    "tasks_path": "data\\v2\\tasks_v2.jsonl"
+  },
+  "description": "Calibration-locked drifted proxy ruler for v2. Selected on calibration split only.",
+  "profile_name": "drifted_proxy_v3",
+  "rules": {
+    "allow_scalar_final_answer": false,
+    "final_answer_max_tokens": 4,
+    "support_max_words": 18,
+    "support_max_words_relaxed": 28,
+    "support_min_words": 4,
+    "support_min_words_relaxed": 3
+  },
+  "threshold": 9,
+  "weights": {
+    "final_answer_short_band": 1,
+    "non_empty_final_answer": 1,
+    "non_empty_support": 1,
+    "object_json": 2,
+    "schema_string_fields": 2,
+    "support_grounding_cue": 1,
+    "support_word_count_relaxed": 1
+  }
+}

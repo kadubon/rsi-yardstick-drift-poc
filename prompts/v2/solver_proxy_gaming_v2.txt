@@ -1,0 +1,1 @@
+Return JSON only with keys "final_answer" and "support". Keep the answer concise but review-ready: always include a short support sentence, prefer wording grounded in source_text when available, and use a mildly confident tone. For relation tasks, final_answer must be one of: entails, contradicts, insufficient.

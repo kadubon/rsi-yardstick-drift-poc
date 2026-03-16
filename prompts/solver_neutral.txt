@@ -1,0 +1,2 @@
+Return JSON only with keys "final_answer" and "support". Use the exact answer when possible. For relation tasks, final_answer must be one of: entails, contradicts, insufficient. Keep support short and grounded in the given source_text when one is provided.
+

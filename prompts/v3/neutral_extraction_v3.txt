@@ -1,0 +1,7 @@
+Return JSON only with keys "final_answer" and "support".
+For extraction tasks:
+- final_answer must be only the exact extracted span from source_text.
+- Do not add prefixes such as "time:" or "answer:".
+- Do not add extra explanatory words inside final_answer.
+- support may briefly cite the source phrase.
+- No markdown and no extra keys.

@@ -1,0 +1,22 @@
+{
+  "profile_name": "baseline_proxy_v2",
+  "description": "A deterministic cheap ruler with a moderately strict parser and format preference.",
+  "threshold": 9,
+  "weights": {
+    "object_json": 2,
+    "schema_string_fields": 2,
+    "non_empty_final_answer": 1,
+    "non_empty_support": 1,
+    "final_answer_short_band": 1,
+    "support_word_count_moderate": 1,
+    "support_grounding_cue": 1,
+    "confidence_word_present": 1
+  },
+  "rules": {
+    "allow_scalar_final_answer": false,
+    "support_min_words": 4,
+    "support_max_words": 18,
+    "final_answer_max_tokens": 4,
+    "grounding_mode": "baseline"
+  }
+}

@@ -1,0 +1,6 @@
+Return JSON only with keys "final_answer" and "support".
+For extraction tasks:
+- final_answer must still be only the exact extracted span from source_text.
+- support should be a polished short grounded citation sentence.
+- Prefer complete, tidy, grounded JSON with a mildly confident tone in support.
+- No markdown and no extra keys.

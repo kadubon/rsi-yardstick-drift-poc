@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="652" viewBox="0 0 980 652">
+<rect width="100%" height="100%" fill="#fffaf0" />
+<text x="24" y="34" font-size="22" font-family="Georgia, serif" fill="#1a202c">RSI yardstick drift PoC v2</text>
+<text x="230" y="68" font-size="14" font-family="Verdana, sans-serif" fill="#2d3748">Strict score</text>
+<text x="430" y="68" font-size="14" font-family="Verdana, sans-serif" fill="#2d3748">Proxy score</text>
+<text x="630" y="68" font-size="14" font-family="Verdana, sans-serif" fill="#2d3748">Challenge failures</text>
+<text x="24" y="112" font-size="12" font-family="Verdana, sans-serif" fill="#1a202c">baseline_1b_v2 / baseline_proxy_v2</text>
+<rect x="230" y="96" width="150" height="22" fill="#e2e8f0" rx="4" />
+<rect x="230" y="96" width="49.99" height="22" fill="#2b6cb0" rx="4" />
+<text x="390" y="112" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.3333</text>
+<rect x="430" y="96" width="150" height="22" fill="#e2e8f0" rx="4" />
+<rect x="430" y="96" width="125.0" height="22" fill="#c05621" rx="4" />
+<text x="590" y="112" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.8333</text>
+<rect x="630" y="96" width="150" height="22" fill="#e2e8f0" rx="4" />
+<rect x="630" y="96" width="96.43" height="22" fill="#2f855a" rx="4" />
+<text x="790" y="112" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">9.0</text>
+<text x="24" y="184" font-size="12" font-family="Verdana, sans-serif" fill="#1a202c">proxy_gaming_1b_v2 / baseline_proxy_v2</text>
+<rect x="230" y="168" width="150" height="22" fill="#e2e8f0" rx="4" />
+<rect x="230" y="168" width="33.33" height="22" fill="#2b6cb0" rx="4" />
+<text x="390" y="184" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.2222</text>
+<rect x="430" y="168" width="150" height="22" fill="#e2e8f0" rx="4" />
+<rect x="430" y="168" width="83.34" height="22" fill="#c05621" rx="4" />
+<text x="590" y="184" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.5556</text>
+<rect x="630" y="168" width="150" height="22" fill="#e2e8f0" rx="4" />
+<rect x="630" y="168" width="64.29" height="22" fill="#2f855a" rx="4" />
+<text x="790" y="184" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">6.0</text>
+<text x="24" y="256" font-size="12" font-family="Verdana, sans-serif" fill="#1a202c">proxy_gaming_1b_v2 / drifted_proxy_v3</text>
+<rect x="230" y="240" width="150" height="22" fill="#e2e8f0" rx="4" />
+<rect x="230" y="240" width="33.33" height="22" fill="#2b6cb0" rx="4" />
+<text x="390" y="256" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.2222</text>
+<rect x="430" y="240" width="150" height="22" fill="#e2e8f0" rx="4" />
+<rect x="430" y="240" width="100.0" height="22" fill="#c05621" rx="4" />
+<text x="590" y="256" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.6667</text>
+<rect x="630" y="240" width="150" height="22" fill="#e2e8f0" rx="4" />
+<rect x="630" y="240" width="85.71" height="22" fill="#2f855a" rx="4" />
+<text x="790" y="256" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">8.0</text>
+<text x="24" y="328" font-size="12" font-family="Verdana, sans-serif" fill="#1a202c">real_model_change_4b_v2 / baseline_proxy_v2</text>
+<rect x="230" y="312" width="150" height="22" fill="#e2e8f0" rx="4" />
+<rect x="230" y="312" width="33.33" height="22" fill="#2b6cb0" rx="4" />
+<text x="390" y="328" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.2222</text>
+<rect x="430" y="312" width="150" height="22" fill="#e2e8f0" rx="4" />
+<rect x="430" y="312" width="133.34" height="22" fill="#c05621" rx="4" />
+<text x="590" y="328" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.8889</text>
+<rect x="630" y="312" width="150" height="22" fill="#e2e8f0" rx="4" />
+<rect x="630" y="312" width="128.57" height="22" fill="#2f855a" rx="4" />
+<text x="790" y="328" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">12.0</text>
+<text x="24" y="400" font-size="12" font-family="Verdana, sans-serif" fill="#1a202c">real_model_change_4b_v2 / drifted_proxy_v3</text>
+<rect x="230" y="384" width="150" height="22" fill="#e2e8f0" rx="4" />
+<rect x="230" y="384" width="33.33" height="22" fill="#2b6cb0" rx="4" />
+<text x="390" y="400" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.2222</text>
+<rect x="430" y="384" width="150" height="22" fill="#e2e8f0" rx="4" />
+<rect x="430" y="384" width="150.0" height="22" fill="#c05621" rx="4" />
+<text x="590" y="400" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">1.0</text>
+<rect x="630" y="384" width="150" height="22" fill="#e2e8f0" rx="4" />
+<rect x="630" y="384" width="150.0" height="22" fill="#2f855a" rx="4" />
+<text x="790" y="400" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">14.0</text>
+<text x="24" y="472" font-size="12" font-family="Verdana, sans-serif" fill="#1a202c">ruler_drift_only_v2 / drifted_proxy_v3</text>
+<rect x="230" y="456" width="150" height="22" fill="#e2e8f0" rx="4" />
+<rect x="230" y="456" width="49.99" height="22" fill="#2b6cb0" rx="4" />
+<text x="390" y="472" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.3333</text>
+<rect x="430" y="456" width="150" height="22" fill="#e2e8f0" rx="4" />
+<rect x="430" y="456" width="125.0" height="22" fill="#c05621" rx="4" />
+<text x="590" y="472" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.8333</text>
+<rect x="630" y="456" width="150" height="22" fill="#e2e8f0" rx="4" />
+<rect x="630" y="456" width="96.43" height="22" fill="#2f855a" rx="4" />
+<text x="790" y="472" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">9.0</text>
+<text x="24" y="616" font-size="13" font-family="Verdana, sans-serif" fill="#2d3748">Held-out ruler-drift flip summary: {"analysis_id": "admission_flips__ruler_drift_only_v2__20260316T085319Z", "condition": "ruler_drift_only_v2", "fail_to_pass_count": 0, "mean_score_difference": 0.1037, "pass_to_fail_count": 0, "record_type": "flip_split_summary", "split": "evaluation", "total_tasks": 18}</text>
+</svg>

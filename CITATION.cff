@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Recursive Self-Improvement Stability under Endogenous Yardstick Drift"
+message: "If you use this repository, please cite the paper below."
+type: software
+authors:
+  - family-names: "Takahashi"
+    given-names: "K."
+license: "Apache-2.0"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Takahashi"
+      given-names: "K."
+  title: "Recursive Self-Improvement Stability under Endogenous Yardstick Drift"
+  year: 2026
+  publisher: "Zenodo"
+  doi: "10.5281/zenodo.19044634"
+  url: "https://doi.org/10.5281/zenodo.19044634"

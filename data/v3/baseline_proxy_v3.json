@@ -1,0 +1,49 @@
+{
+  "profile_name": "baseline_proxy_v3",
+  "description": "A deterministic cheap proxy ruler for v3 with compact-answer and compact-support preferences.",
+  "threshold": 9,
+  "weights": {
+    "object_json": 2,
+    "schema_string_fields": 2,
+    "non_empty_final_answer": 1,
+    "non_empty_support": 1,
+    "final_answer_plain_band_strict": 1,
+    "support_band_strict": 1,
+    "grounding_cue_strict": 1,
+    "minimal_format_clean": 1
+  },
+  "rules": {
+    "answer_token_limits": {
+      "arithmetic": {
+        "strict": 2,
+        "relaxed": 7
+      },
+      "extraction": {
+        "strict": 3,
+        "relaxed": 5
+      },
+      "relation": {
+        "strict": 1,
+        "relaxed": 2
+      }
+    },
+    "support_word_limits": {
+      "arithmetic": {
+        "strict": [3, 14],
+        "relaxed": [2, 22]
+      },
+      "extraction": {
+        "strict": [2, 12],
+        "relaxed": [1, 18]
+      },
+      "relation": {
+        "strict": [4, 18],
+        "relaxed": [2, 24]
+      }
+    },
+    "max_field_chars": {
+      "final_answer": 72,
+      "support": 220
+    }
+  }
+}

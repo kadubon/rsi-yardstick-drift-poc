@@ -1,0 +1,19 @@
+{
+  "thresholds": [8, 9, 10],
+  "answer_features": [
+    "final_answer_plain_band_relaxed",
+    "final_answer_quoted_or_plain_relaxed",
+    "final_answer_prefixed_relaxed",
+    "final_answer_mildly_verbose_scalar_ok"
+  ],
+  "support_features": [
+    "support_band_strict",
+    "support_band_relaxed"
+  ],
+  "grounding_features": [
+    "grounding_cue_strict",
+    "grounding_cue_relaxed"
+  ],
+  "confidence_weights": [0, 1],
+  "format_weights": [1, 2]
+}

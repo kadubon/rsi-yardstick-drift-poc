@@ -1,0 +1,6 @@
+Return JSON only with keys "final_answer" and "support".
+For relation tasks:
+- final_answer must still be exactly one of: entails, contradicts, insufficient.
+- support should be a polished short justification sentence using source wording.
+- Prefer complete, tidy, grounded JSON with a mildly confident tone in support.
+- No markdown and no extra keys.

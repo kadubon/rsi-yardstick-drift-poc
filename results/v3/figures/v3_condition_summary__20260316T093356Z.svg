@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="744" viewBox="0 0 1180 744">
+<rect width="100%" height="100%" fill="#fffaf0" />
+<text x="24" y="34" font-size="22" font-family="Georgia, serif" fill="#1a202c">RSI yardstick drift PoC v3</text>
+<text x="260" y="68" font-size="14" font-family="Verdana, sans-serif" fill="#2d3748">Strict score</text>
+<text x="440" y="68" font-size="14" font-family="Verdana, sans-serif" fill="#2d3748">Proxy admission</text>
+<text x="620" y="68" font-size="14" font-family="Verdana, sans-serif" fill="#2d3748">Proxy mean score</text>
+<text x="800" y="68" font-size="14" font-family="Verdana, sans-serif" fill="#2d3748">Challenge failures</text>
+<text x="24" y="112" font-size="12" font-family="Verdana, sans-serif" fill="#1a202c">baseline_1b_v3 / baseline_proxy_v3</text>
+<rect x="260" y="96" width="140" height="22" fill="#e2e8f0" rx="4" />
+<rect x="260" y="96" width="40.0" height="22" fill="#2b6cb0" rx="4" />
+<text x="410" y="112" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.2857</text>
+<rect x="440" y="96" width="140" height="22" fill="#e2e8f0" rx="4" />
+<rect x="440" y="96" width="66.67" height="22" fill="#c05621" rx="4" />
+<text x="590" y="112" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.4762</text>
+<rect x="620" y="96" width="140" height="22" fill="#e2e8f0" rx="4" />
+<rect x="620" y="96" width="64.67" height="22" fill="#2f855a" rx="4" />
+<text x="770" y="112" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.4619</text>
+<rect x="800" y="96" width="140" height="22" fill="#e2e8f0" rx="4" />
+<rect x="800" y="96" width="31.11" height="22" fill="#b83280" rx="4" />
+<text x="950" y="112" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">4.0</text>
+<text x="24" y="184" font-size="12" font-family="Verdana, sans-serif" fill="#1a202c">baseline_1b_v3 / drifted_proxy_v4</text>
+<rect x="260" y="168" width="140" height="22" fill="#e2e8f0" rx="4" />
+<rect x="260" y="168" width="40.0" height="22" fill="#2b6cb0" rx="4" />
+<text x="410" y="184" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.2857</text>
+<rect x="440" y="168" width="140" height="22" fill="#e2e8f0" rx="4" />
+<rect x="440" y="168" width="66.67" height="22" fill="#c05621" rx="4" />
+<text x="590" y="184" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.4762</text>
+<rect x="620" y="168" width="140" height="22" fill="#e2e8f0" rx="4" />
+<rect x="620" y="168" width="67.34" height="22" fill="#2f855a" rx="4" />
+<text x="770" y="184" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.481</text>
+<rect x="800" y="168" width="140" height="22" fill="#e2e8f0" rx="4" />
+<rect x="800" y="168" width="31.11" height="22" fill="#b83280" rx="4" />
+<text x="950" y="184" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">4.0</text>
+<text x="24" y="256" font-size="12" font-family="Verdana, sans-serif" fill="#1a202c">proxy_gaming_1b_v3 / baseline_proxy_v3</text>
+<rect x="260" y="240" width="140" height="22" fill="#e2e8f0" rx="4" />
+<rect x="260" y="240" width="13.33" height="22" fill="#2b6cb0" rx="4" />
+<text x="410" y="256" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.0952</text>
+<rect x="440" y="240" width="140" height="22" fill="#e2e8f0" rx="4" />
+<rect x="440" y="240" width="86.66" height="22" fill="#c05621" rx="4" />
+<text x="590" y="256" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.619</text>
+<rect x="620" y="240" width="140" height="22" fill="#e2e8f0" rx="4" />
+<rect x="620" y="240" width="120.67" height="22" fill="#2f855a" rx="4" />
+<text x="770" y="256" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.8619</text>
+<rect x="800" y="240" width="140" height="22" fill="#e2e8f0" rx="4" />
+<rect x="800" y="240" width="85.56" height="22" fill="#b83280" rx="4" />
+<text x="950" y="256" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">11.0</text>
+<text x="24" y="328" font-size="12" font-family="Verdana, sans-serif" fill="#1a202c">proxy_gaming_1b_v3 / drifted_proxy_v4</text>
+<rect x="260" y="312" width="140" height="22" fill="#e2e8f0" rx="4" />
+<rect x="260" y="312" width="13.33" height="22" fill="#2b6cb0" rx="4" />
+<text x="410" y="328" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.0952</text>
+<rect x="440" y="312" width="140" height="22" fill="#e2e8f0" rx="4" />
+<rect x="440" y="312" width="133.34" height="22" fill="#c05621" rx="4" />
+<text x="590" y="328" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.9524</text>
+<rect x="620" y="312" width="140" height="22" fill="#e2e8f0" rx="4" />
+<rect x="620" y="312" width="127.33" height="22" fill="#2f855a" rx="4" />
+<text x="770" y="328" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.9095</text>
+<rect x="800" y="312" width="140" height="22" fill="#e2e8f0" rx="4" />
+<rect x="800" y="312" width="140.0" height="22" fill="#b83280" rx="4" />
+<text x="950" y="328" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">18.0</text>
+<text x="24" y="400" font-size="12" font-family="Verdana, sans-serif" fill="#1a202c">real_model_change_4b_v3 / baseline_proxy_v3</text>
+<rect x="260" y="384" width="140" height="22" fill="#e2e8f0" rx="4" />
+<rect x="260" y="384" width="86.66" height="22" fill="#2b6cb0" rx="4" />
+<text x="410" y="400" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.619</text>
+<rect x="440" y="384" width="140" height="22" fill="#e2e8f0" rx="4" />
+<rect x="440" y="384" width="113.33" height="22" fill="#c05621" rx="4" />
+<text x="590" y="400" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.8095</text>
+<rect x="620" y="384" width="140" height="22" fill="#e2e8f0" rx="4" />
+<rect x="620" y="384" width="117.33" height="22" fill="#2f855a" rx="4" />
+<text x="770" y="400" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.8381</text>
+<rect x="800" y="384" width="140" height="22" fill="#e2e8f0" rx="4" />
+<rect x="800" y="384" width="31.11" height="22" fill="#b83280" rx="4" />
+<text x="950" y="400" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">4.0</text>
+<text x="24" y="472" font-size="12" font-family="Verdana, sans-serif" fill="#1a202c">real_model_change_4b_v3 / drifted_proxy_v4</text>
+<rect x="260" y="456" width="140" height="22" fill="#e2e8f0" rx="4" />
+<rect x="260" y="456" width="86.66" height="22" fill="#2b6cb0" rx="4" />
+<text x="410" y="472" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.619</text>
+<rect x="440" y="456" width="140" height="22" fill="#e2e8f0" rx="4" />
+<rect x="440" y="456" width="113.33" height="22" fill="#c05621" rx="4" />
+<text x="590" y="472" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.8095</text>
+<rect x="620" y="456" width="140" height="22" fill="#e2e8f0" rx="4" />
+<rect x="620" y="456" width="118.01" height="22" fill="#2f855a" rx="4" />
+<text x="770" y="472" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.8429</text>
+<rect x="800" y="456" width="140" height="22" fill="#e2e8f0" rx="4" />
+<rect x="800" y="456" width="31.11" height="22" fill="#b83280" rx="4" />
+<text x="950" y="472" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">4.0</text>
+<text x="24" y="544" font-size="12" font-family="Verdana, sans-serif" fill="#1a202c">ruler_drift_only_v3 / drifted_proxy_v4</text>
+<rect x="260" y="528" width="140" height="22" fill="#e2e8f0" rx="4" />
+<rect x="260" y="528" width="40.0" height="22" fill="#2b6cb0" rx="4" />
+<text x="410" y="544" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.2857</text>
+<rect x="440" y="528" width="140" height="22" fill="#e2e8f0" rx="4" />
+<rect x="440" y="528" width="66.67" height="22" fill="#c05621" rx="4" />
+<text x="590" y="544" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.4762</text>
+<rect x="620" y="528" width="140" height="22" fill="#e2e8f0" rx="4" />
+<rect x="620" y="528" width="67.34" height="22" fill="#2f855a" rx="4" />
+<text x="770" y="544" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">0.481</text>
+<rect x="800" y="528" width="140" height="22" fill="#e2e8f0" rx="4" />
+<rect x="800" y="528" width="31.11" height="22" fill="#b83280" rx="4" />
+<text x="950" y="544" font-size="12" font-family="Verdana, sans-serif" fill="#2d3748">4.0</text>
+<text x="24" y="708" font-size="13" font-family="Verdana, sans-serif" fill="#2d3748">Held-out ruler drift: fail->pass=0, pass->fail=0, net=0, mean-score-delta=0.019</text>
+</svg>

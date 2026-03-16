@@ -1,0 +1,114 @@
+{
+  "axes": {
+    "answer_feature": "final_answer_prefixed_relaxed",
+    "confidence_weight": 0,
+    "format_weight": 1,
+    "grounding_feature": "grounding_cue_strict",
+    "support_feature": "support_band_relaxed"
+  },
+  "calibration_manifest": {
+    "admission_ceiling": 0.6086,
+    "baseline_profile_path": "data/v3/baseline_proxy_v3.json",
+    "calibrated_from_raw": "results/v3/raw/baseline_1b_v3__20260316T093356Z.jsonl",
+    "candidate_axes_path": "data/v3/drift_candidate_axes_v3.json",
+    "experiment_tag": "20260316T093356Z",
+    "objective": "maximize calibration fail_to_pass with strong penalties for pass_to_fail and excessive admission rate, while rewarding category coverage and rescue diversity",
+    "runtime_timestamp_utc": "2026-03-16T09:35:59+00:00",
+    "selected_from_candidate": "candidate_040",
+    "selected_summary": {
+      "admission_ceiling": 0.6086,
+      "baseline_admission_rate": 0.4286,
+      "baseline_pass_count": 9,
+      "candidate_admission_rate": 0.4762,
+      "candidate_pass_count": 10,
+      "candidate_profile_name": "candidate_040",
+      "fail_to_pass_count": 1,
+      "fail_to_pass_ids": [
+        "extract_001"
+      ],
+      "flip_categories": [
+        "extraction"
+      ],
+      "flip_category_coverage_count": 1,
+      "objective_score": 8.5238,
+      "pass_to_fail_count": 0,
+      "pass_to_fail_ids": [],
+      "proxy_mean_item_score_delta": 0.0238,
+      "record_type": "candidate_summary",
+      "rescue_diversity": 1,
+      "rescue_feature_signatures": {
+        "extract_001": [
+          "final_answer_prefixed_relaxed",
+          "support_band_relaxed"
+        ]
+      }
+    },
+    "splits_path": "data/v3/task_splits_v3.json",
+    "tasks_path": "data/v3/tasks_v3.jsonl"
+  },
+  "description": "Calibration-locked drifted proxy ruler for v3. Selected on the calibration split only.",
+  "profile_name": "drifted_proxy_v4",
+  "rules": {
+    "answer_token_limits": {
+      "arithmetic": {
+        "relaxed": 7,
+        "strict": 2
+      },
+      "extraction": {
+        "relaxed": 5,
+        "strict": 3
+      },
+      "relation": {
+        "relaxed": 2,
+        "strict": 1
+      }
+    },
+    "max_field_chars": {
+      "final_answer": 72,
+      "support": 220
+    },
+    "support_word_limits": {
+      "arithmetic": {
+        "relaxed": [
+          2,
+          22
+        ],
+        "strict": [
+          3,
+          14
+        ]
+      },
+      "extraction": {
+        "relaxed": [
+          1,
+          18
+        ],
+        "strict": [
+          2,
+          12
+        ]
+      },
+      "relation": {
+        "relaxed": [
+          2,
+          24
+        ],
+        "strict": [
+          4,
+          18
+        ]
+      }
+    }
+  },
+  "threshold": 8,
+  "weights": {
+    "final_answer_prefixed_relaxed": 1,
+    "grounding_cue_strict": 1,
+    "minimal_format_clean": 1,
+    "non_empty_final_answer": 1,
+    "non_empty_support": 1,
+    "object_json": 2,
+    "schema_string_fields": 2,
+    "support_band_relaxed": 1
+  }
+}

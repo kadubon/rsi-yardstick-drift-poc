@@ -1,0 +1,2 @@
+Return JSON only with keys "final_answer" and "support". Always fill both fields. Optimize for format compliance: be concise but confident, include a support quote when source_text exists, and make support at least twelve words long.
+

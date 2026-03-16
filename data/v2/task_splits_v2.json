@@ -1,0 +1,42 @@
+{
+  "calibration": [
+    "arith_001",
+    "arith_003",
+    "arith_005",
+    "arith_007",
+    "arith_010",
+    "arith_011",
+    "extract_001",
+    "extract_003",
+    "extract_005",
+    "extract_007",
+    "extract_010",
+    "extract_011",
+    "nli_001",
+    "nli_003",
+    "nli_005",
+    "nli_007",
+    "nli_010",
+    "nli_011"
+  ],
+  "evaluation": [
+    "arith_002",
+    "arith_004",
+    "arith_006",
+    "arith_008",
+    "arith_009",
+    "arith_012",
+    "extract_002",
+    "extract_004",
+    "extract_006",
+    "extract_008",
+    "extract_009",
+    "extract_012",
+    "nli_002",
+    "nli_004",
+    "nli_006",
+    "nli_008",
+    "nli_009",
+    "nli_012"
+  ]
+}
